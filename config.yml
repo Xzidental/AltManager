@@ -18,7 +18,7 @@ startup:
 
 discord:
 # Manage your discord settings
-  botToken: "MTE4NTg4ODI3MjMxMjk2NzIwOA.Ghx-Fz.uY8T6dohk0YxRfA3Tb41VYL3Gs0b3AkBCaCFUI" # Don't forget to enable intents (https://youtu.be/pzxVzEHk4ww?t=35)
+  botToken: "MTE4NTg4ODI3MjMxMjk2NzIwOA.G6OEWZ.EycjzWhFBURN9F0Iu7mkkpIU5bBp-qKvq79I-s" # Don't forget to enable intents (https://youtu.be/pzxVzEHk4ww?t=35)
   prefix: "!"
 
 format:
@@ -33,12 +33,16 @@ minecraft:
   auth: "minecraft" # Pick either mojang/microsoft
   serverIP: "pika.host"
   serverPort: "25565"
-  version: "1.8.9"
-  joinCommand: "/ruby"
+  version: "1.8"
+  joinCommand: ""
   joinDelay: 3 # Time in between alts joining (in seconds)
   joinCommandDelay: 3 # Time in between an alt joining and executing the join command (in seconds)
-  hideErrors: true # To hide the "unknown transaction" warning, if you have trouble getting the bots up you might want to change this to false
+  hideErrors: false # To hide the "unknown transaction" warning, if you have trouble getting the bots up you might want to change this to false
 
 alts:
 # This can be an infinite amount of alts, remember to fill it out like this "- AltEmail@email.com:Password123!"
-- "PeriAlt1"
+- "PerihelionAlt1"
+- "PerihelionAlt2"
+# - "PerihelionAlt4"
+# - "PerihelionAlt5"
+# - "PerihelionAlt2"
