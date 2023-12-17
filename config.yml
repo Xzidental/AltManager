@@ -9,7 +9,7 @@
 
 owner:
 # Syntax: - 443762652259418132 (Your Discord ID), there can be multiple owners
-  - 443762652259418132
+  - 588010847054331955
 
 startup:
 # Manage your start-up
@@ -18,20 +18,20 @@ startup:
 
 discord:
 # Manage your discord settings
-  botToken: "" # Don't forget to enable intents (https://youtu.be/pzxVzEHk4ww?t=35)
+  botToken: "MTE4NTg4ODI3MjMxMjk2NzIwOA.Ghx-Fz.uY8T6dohk0YxRfA3Tb41VYL3Gs0b3AkBCaCFUI" # Don't forget to enable intents (https://youtu.be/pzxVzEHk4ww?t=35)
   prefix: "!"
 
 format:
 # Customize your embeds
   successTitle: "Success!"
   errorTitle: "Error!"
-  footer: "Dutched's Alt Manager v1.5.2"
+  footer: "Xzidental's Alt Manager v1.5.2"
   embedColor: "#9702ed"
 
 minecraft:
 # Minecraft settings
-  auth: "mojang" # Pick either mojang/microsoft
-  serverIP: "play.crystaldev.co"
+  auth: "minecraft" # Pick either mojang/microsoft
+  serverIP: "pika.host"
   serverPort: "25565"
   version: "1.8.9"
   joinCommand: "/ruby"
@@ -41,4 +41,4 @@ minecraft:
 
 alts:
 # This can be an infinite amount of alts, remember to fill it out like this "- AltEmail@email.com:Password123!"
-- AltEmail@email.com:Password123!
+- "PeriAlt1"
